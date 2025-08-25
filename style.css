@@ -7,7 +7,7 @@
 }
 .section-1 {
     height: 80vh;
-    background-image: url(/image/analog-landscape-city-with-buildings.jpg);
+    background-image: url("/image/analog-landscape-city-with-buildings.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -322,8 +322,11 @@ img {
 }
 @media screen and (max-width: 768px) {
     .section-4{
-        display:none ;
+        display:flex ;
         width: 100%;
         padding: 0 15px;
+    }
+    .card-3 {
+        display: none;
     }
 }
